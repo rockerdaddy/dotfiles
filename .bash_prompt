@@ -100,9 +100,9 @@ fi;
 
 # Highlight the hostname when connected via SSH.
 if [[ "${SSH_TTY}" ]]; then
-	hostStyle="${bold}${red}";
+	hostStyle="${bold}${blue}";
 else
-	hostStyle="${blue}";
+	hostStyle="${cyan}";
 fi;
 
 # Set the terminal title and prompt.
